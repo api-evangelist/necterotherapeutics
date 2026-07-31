@@ -1,21 +1,45 @@
 aid: necterotherapeutics
-name: Necterotherapeutics
-description: 'Necterotherapeutics is a company surfaced as a portfolio company of norwest-venture-partners
-  and added to the API Evangelist network as a stub for enrichment. Sector: unknown. This profile is a
-  lead awaiting the enrichment pipeline.'
+name: Nectero Therapeutics
+description: 'Nectero Therapeutics (also operating as Nectero Medical) is a clinical-stage
+  biopharmaceutical company developing a novel, minimally invasive treatment to stabilize
+  growth and prevent rupture of mid-sized abdominal aortic aneurysms (AAA). Its lead
+  investigational therapy is delivered as a single endovascular procedure intended
+  to remodel and strengthen the aneurysm wall, offering an alternative to watchful
+  waiting or open surgical repair. The company is backed by Norwest Venture Partners
+  and other life-sciences investors, and maintains a corporate marketing and news
+  presence. It does not publish a developer program, public API, SDKs, or any machine-readable
+  API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/necterotherapeutics/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://necterotherapeutics.com/wp-content/uploads/2023/09/cropped-Nectero-Medical-Icon-192x192.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - norwest-venture-partners
 x-tier: stub
-x-tier-reason: portfolio-lead
+x-tier-reason: no-api-surface
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
-- Unknown
+- Healthcare
+- Biotechnology
+- Pharmaceuticals
+- Therapeutics
+- Clinical Trials
+- Vascular
+- Medical
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +47,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/necterotherapeutics-domain-security.yml
 - type: Website
   url: https://necterotherapeutics.com
+- type: About
+  url: https://necterotherapeutics.com/company/
+- type: Support
+  url: https://necterotherapeutics.com/contact/
+- type: Blog
+  url: https://necterotherapeutics.com/news/
+- type: BlogRSS
+  url: https://necterotherapeutics.com/feed/
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
