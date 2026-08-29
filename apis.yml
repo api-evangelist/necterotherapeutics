@@ -10,6 +10,17 @@ description: 'Nectero Therapeutics (also operating as Nectero Medical) is a clin
   presence. It does not publish a developer program, public API, SDKs, or any machine-readable
   API surface.'
 url: https://raw.githubusercontent.com/api-evangelist/necterotherapeutics/refs/heads/main/apis.yml
+deliveryModel:
+  model: unknown
+  open_source: false
+  commercial: false
+  callable_host: false
+  label: Delivery model not determined — needs a product licence on record
+  confidence: low
+  source:
+  - none
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
